@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">ß
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <style>
+        div {
+            background-color: orange;
+            width: 400px;
+            height: 100px;
+            padding: 20px;
+            margin: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+        td {
+            border: solid black;
+        }
+        .basliklar {
+            color: black;
+            align-items: center;
+        }
+        button {
+            width: fit-content;
+            height: fit-content;
+            background-color: burlywood;
+        }
+        button:hover {background-color: chartreuse;
+
+        }
+        ul {
+            color: crimson;
+            text-align: left;
+            text-size-adjust: 20px;
+        }
+        ol {
+            color: darkblue;
+            font-size: larger;
+            padding: 10px;
+            
+        }
+    </style>
+    </head>
+    <body>
+        <h1 class="basliklar">H1 duzeyinde baslik</h1> 
+        <h2 class="basliklar">h2 duzeyinde baslik</h2>
+        <div>
+            {
+                Division 
+            }
+
+        </div>
+        <h1 class="basliklar">ucuncu duzey balsik</h1>
+        Ordered list
+        <ol>
+            <li>listenin birincisi</li>
+            <li>listenin ikincisi</li>
+            <ul>
+                <li>alt liste ilk</li>
+                <li>alt liste iki</li>
+            </ul>
+        </ol>
+        Unordered list
+        <ul>
+            <li>duzensiz birinci</li>
+            <li>duzensiz ikincisi</li>
+        </ul>
+        <img src="cat.jpg" alt="kedi resmi" width="300">
+        <a href="https://www.bimteknoloji.com"><button>Buraya tiklayin</button></a>
+       <form>
+           <input type="text" placeholder="Tam adiniz" name="tam_adi">
+           <input type="submit">
+           <input type="password" placeholder="sifre" name="sifreniz">
+           <input type="checkbox" placeholder="sartlari kabul et" name="ok"> 
+       </form>
+       <div>
+        <input name="meslekler" list="meslekler" placeholder="mesleginiz">
+        <datalist id="meslekler">
+            <option value="ogretemen">
+             <option value="saglik">
+             <option value="tarim">
+        </datalist>
+       </div>
+       <table class="table table-hover">
+           <thead>Tablo baslik</thead>
+           <tbody>
+            <tr>birinci row</tr>
+           </tbody>
+           
+       </table>
+       
+    </body>
+</html>
